@@ -1,0 +1,11 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "flutter": true,
+        "Push-Location": true,
+        "Test-Path": true,
+        "/^cmd /c \"cd /d c:\\\\Users\\\\alien\\\\Desktop\\\\Projects\\\\oba\\\\oba-smart-assistant\\\\mobile && flutter pub get && flutter run\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
