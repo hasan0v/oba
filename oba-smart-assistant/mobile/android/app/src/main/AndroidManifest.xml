@@ -53,9 +53,11 @@
             android:name="flutterEmbedding"
             android:value="2" />
         
-        <!-- Google Maps API Key -->
+        <!-- Google Maps API Key — injected at build time from
+             android/secret.properties (gitignored) or env var MAPS_API_KEY.
+             Falls back to the committed dev key. See android/app/build.gradle.kts -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAVj4PwOfXMIZfBWMWcEfea_cMqwemNcys"/>
+            android:value="${MAPS_API_KEY}"/>
     </application>
 </manifest>

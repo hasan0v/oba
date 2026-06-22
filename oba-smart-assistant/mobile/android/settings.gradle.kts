@@ -19,7 +19,11 @@ pluginManagement {
 plugins {
     id("dev.flutter.flutter-plugin-loader") version "1.0.0"
     id("com.android.application") version "8.7.0" apply false
-    id("org.jetbrains.kotlin.android") version "1.8.22" apply false
+    // Kotlin 2.1.0 required by Firebase BoM 33.5.x (play-services-measurement
+    // is compiled with Kotlin metadata version 2.1.0).
+    id("org.jetbrains.kotlin.android") version "2.1.0" apply false
+    // Firebase (T11) — google-services plugin, applied in app/build.gradle.kts
+    id("com.google.gms.google-services") version "4.4.2" apply false
 }
 
 include(":app")

@@ -1,3 +1,14 @@
+# Secrets — DO NOT COMMIT
+.env
+.env.*
+!.env.example
+android/secret.properties
+*.keystore
+*.jks
+google-services.json
+GoogleService-Info.plist
+firebase-service-account.json
+
 # Miscellaneous
 *.class
 *.log
