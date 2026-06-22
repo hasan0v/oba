@@ -370,7 +370,7 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## 📄 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
+This project is licensed under a proprietary and restricted license. Commercial use, reproduction, or distribution without prior written permission is strictly prohibited - see [LICENSE](LICENSE) file.
 
 ## 📞 Support
 
